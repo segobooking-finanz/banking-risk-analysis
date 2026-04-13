@@ -34,3 +34,126 @@ This analysis applies **Basel III** standards for capital adequacy:
 - **Version Control:** Git & GitHub
 
 ## Project Structure
+├── credit_risk_analysis.py
+├── fdic_complete.csv
+└── README.md
+
+---
+
+## Key Metrics
+
+| Metric | Value | Benchmark |
+|--------|-------|-----------|
+| Banks Analyzed | **255** | — |
+| States Covered | **26** | — |
+| Avg ROA | **0.66%** | >1% healthy |
+| Avg NIM | **2.04%** | 2-4% typical |
+| Avg Tier 1 Ratio | **11.09%** | >6% required |
+| Low Risk Banks | **53.75%** | — |
+| Critical Risk Banks | **2.85%** | — |
+
+---
+
+## Visualizations
+
+### 📈 Key Risk Indicators Over Time
+![Key Metrics](risk_01_key_metrics.png)
+
+### 📊 Risk Metrics Distribution
+![Distribution](risk_02_distribution.png)
+
+### 🏦 Risk Profile by Bank Size
+![By Size](risk_03_by_size.png)
+
+### 🔗 Risk Metrics Correlation Matrix
+![Correlation](risk_04_correlation.png)
+
+### 🗺️ Bank Profitability by US State
+![By State](risk_05_by_state.png)
+
+### 🎯 Banking Risk Scorecard
+![Scorecard](risk_06_scorecard.png)
+
+---
+
+## Key Findings
+
+### 💰 Profitability
+- Average ROA of **0.66%** — below the 1% healthy benchmark
+- Average NIM of **2.04%** — within normal range but compressed
+- NIM improved through 2022-2023 as Fed rate hikes increased 
+  interest income for banks
+
+### 🏦 Capital Adequacy
+- Average Tier 1 Ratio of **11.09%** — nearly double the Basel III 
+  minimum of 6% — US banking system is well capitalized overall
+- **Zero banks** fall below the 6% minimum requirement in this sample
+- Smaller banks tend to hold higher capital ratios as a buffer
+
+### 📊 Bank Size vs Risk
+- **Mega banks (>$10B)** show lower ROA but more stable NIM
+- **Small banks (<$100M)** have higher NIM but more volatile ROA
+- **Mid-size banks ($100M-$1B)** show the best risk-adjusted profile
+- Larger banks benefit from diversification but face margin compression
+
+### 🎯 Risk Scorecard
+- **53.75% Low Risk** — majority of US banks are financially healthy
+- **2.85% Critical Risk** — 57 bank records show multiple stress indicators
+- Critical risk banks are concentrated in specific states and 
+  smaller asset categories
+- High efficiency ratios (>80%) are the most common risk factor
+
+### 🗺️ Geographic Insights
+- Significant variation in bank profitability across states
+- Some states show consistently negative average ROA — 
+  indicating regional economic stress
+- States with strong real estate markets tend to show 
+  higher NIM due to mortgage lending activity
+
+### 🔗 Key Correlations
+- **ROA and NIM are positively correlated** — higher interest 
+  margins drive profitability
+- **Efficiency Ratio negatively correlates with ROA** — 
+  more efficient banks are more profitable
+- **Tier 1 Ratio shows weak correlation with ROA** — 
+  capital adequacy alone doesn't guarantee profitability
+
+---
+
+## Business Recommendations
+
+1. **Monitor Critical Risk banks closely** — 57 records show 
+   multiple stress indicators requiring supervisory attention
+2. **NIM compression is the key threat** — as Fed rates normalize, 
+   banks must find alternative revenue sources
+3. **Efficiency improvement is the highest-ROI lever** — 
+   banks with efficiency ratio below 60% consistently outperform
+4. **Mid-size banks are the sweet spot** — best risk-adjusted 
+   returns with manageable operational complexity
+5. **Geographic diversification matters** — state-level ROA 
+   variation suggests regional economic exposure is a key risk factor
+
+---
+
+## Personal Connection
+This analysis applies the same regulatory frameworks I worked with 
+during my internship at **Superintendencia Financiera de Colombia**, 
+where I monitored liquidity indicators and solvency metrics for 50+ 
+supervised financial institutions under Basel III standards.
+
+---
+
+## Related Projects
+- [Brazilian E-Commerce SQL Analysis](https://github.com/segobooking-finanz/brazilian-ecommerce-analysis)
+- [RFM Customer Segmentation](https://github.com/segobooking-finanz/rfm-customer-segmentation)
+- [Stock Market Financial Analysis](https://github.com/segobooking-finanz/stock-market-financial-analysis)
+- [E-Commerce Power BI Dashboard](https://github.com/segobooking-finanz/ecommerce-powerbi-dashboard)
+- [SaaS Sales Financial Analysis](https://github.com/segobooking-finanz/saas-sales-financial-analysis)
+
+---
+
+## Author
+**Simón Segovia** | Financial & Data Analyst  
+📧 simon.segoviavalen@gmail.com  
+💼 [LinkedIn](https://www.linkedin.com/in/simón-sebastián-segovia-valenzuela-6505b1259)  
+🐙 [GitHub](https://github.com/segobooking-finanz)
